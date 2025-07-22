@@ -6,14 +6,14 @@
       "use": "@vercel/node"
     },
     {
-      "src": "public/**",
+      "src": "public/index.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/planes",
-      "dest": "api/planes.js"
+      "dest": "/api/planes.js"
     },
     {
       "src": "/(.*)",
